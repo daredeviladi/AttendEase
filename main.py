@@ -21,7 +21,7 @@ window.configure(background="#7f8c8d")
 def manually_fill():
     global sb
     sb = tk.Tk()
-    sb.iconbitmap("favicon.ico")
+    # sb.iconbitmap("favicon.ico")
     sb.title("Enter Subject Name")
     sb.geometry("580x320")
     sb.configure(background="#1B1B1B")
